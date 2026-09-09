@@ -10,7 +10,7 @@
   "rightClickProtect": false,
   "watermark": false,
   "watermarkText": "",
-  "protectFromAI": false,
+  "protectFromAI": true,
   "newsletterInFooter": false,
   "newsletterOnWork": false,
   "ogImage": "/assets/og-default.jpg",
