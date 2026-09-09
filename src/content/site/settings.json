@@ -42,8 +42,8 @@
       "heading": "#f3e7d6"
     },
     "type": {
-      "headingFont": "Fraunces",
-      "bodyFont": "Nunito Sans",
+      "headingFont": "Hoefler",
+      "bodyFont": "Syne",
       "headingWeight": 600,
       "bodyWeight": 400,
       "baseSize": 17,
@@ -51,8 +51,8 @@
       "letterSpacing": 0
     },
     "shape": {
-      "radius": 16,
-      "borderWidth": 1,
+      "radius": 4,
+      "borderWidth": 3,
       "shadows": "none"
     },
     "density": "normal",
@@ -77,7 +77,7 @@
     },
     "gallery": {
       "layout": "masonry",
-      "size": "medium",
+      "size": "small",
       "gutter": "normal",
       "caption": "below",
       "cardStyle": "card",
