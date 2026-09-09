@@ -1,7 +1,7 @@
 {
-  "siteTitle": "Your portfolio",
-  "tagline": "",
-  "logoText": "Your name",
+  "siteTitle": "Neuroso",
+  "tagline": "Digital Artist + Cosplay maker",
+  "logoText": "My art stuff :3",
   "theme": "default",
   "fontPairing": "jost-hanken-grotesk",
   "portfolioLayout": "masonry",
@@ -15,5 +15,108 @@
   "newsletterOnWork": false,
   "ogImage": "/assets/og-default.jpg",
   "metaDescription": "",
-  "socialLinks": []
+  "socialLinks": [],
+  "supportLinks": [],
+  "linksEnabled": false,
+  "links": [],
+  "searchEnabled": false,
+  "cvAutoExhibitions": false,
+  "commissionsMode": "form",
+  "analyticsProvider": "none",
+  "sellEnabled": false,
+  "availableForWork": false,
+  "newsletterEnabled": false,
+  "newsletterProvider": "netlify",
+  "stockists": [],
+  "design": {
+    "preset": "monograph",
+    "color": {
+      "background": "#011d57",
+      "surface": "#ffffff",
+      "text": "#ffffff",
+      "muted": "#7b7568",
+      "accent": "#000000",
+      "accent2": "#0056d6",
+      "border": "#0042a9",
+      "link": "#9a3b2e",
+      "heading": "#201d1a"
+    },
+    "type": {
+      "headingFont": "Hofler",
+      "bodyFont": "Space Grotesk",
+      "headingWeight": 600,
+      "bodyWeight": 400,
+      "baseSize": 19,
+      "headingTransform": "none",
+      "letterSpacing": 0
+    },
+    "shape": {
+      "radius": 0,
+      "borderWidth": 1,
+      "shadows": "none"
+    },
+    "density": "airy",
+    "contentWidth": "normal",
+    "readingWidth": "spacious",
+    "motion": "smooth",
+    "nav": {
+      "layout": "side"
+    },
+    "home": {
+      "landing": "about"
+    },
+    "logo": {
+      "mode": "none"
+    },
+    "background": {
+      "type": "solid"
+    },
+    "thumb": {
+      "fit": "contain",
+      "hover": "zoom"
+    },
+    "gallery": {
+      "layout": "grid",
+      "size": "medium",
+      "gutter": "normal",
+      "caption": "below",
+      "cardStyle": "card",
+      "captionDetail": "full",
+      "captionOverlay": "surface",
+      "featureFirst": false,
+      "adaptiveSpans": false,
+      "click": "lightbox",
+      "filters": false
+    },
+    "lightbox": {
+      "transition": "fade",
+      "zoom": false
+    },
+    "hero": {
+      "enabled": true,
+      "align": "left",
+      "size": "small"
+    },
+    "footer": {
+      "socials": true,
+      "credit": true
+    },
+    "favicon": {
+      "mode": "initials"
+    },
+    "pages": {
+      "about": true,
+      "contact": true,
+      "cv": true,
+      "press": true,
+      "exhibitions": false,
+      "news": false,
+      "available": false,
+      "presskit": false,
+      "commissions": true,
+      "shop": false,
+      "projects": true,
+      "stockists": false
+    }
+  }
 }
