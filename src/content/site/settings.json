@@ -29,54 +29,54 @@
   "newsletterProvider": "netlify",
   "stockists": [],
   "design": {
-    "preset": "monograph",
+    "preset": "ember",
     "color": {
-      "background": "#011d57",
-      "surface": "#ffffff",
-      "text": "#ffffff",
-      "muted": "#7b7568",
-      "accent": "#000000",
-      "accent2": "#0056d6",
-      "border": "#0042a9",
-      "link": "#9a3b2e",
-      "heading": "#201d1a"
+      "background": "#1a130e",
+      "surface": "#241a12",
+      "text": "#d6d6d6",
+      "muted": "#ac9576",
+      "accent": "#ffffff",
+      "accent2": "#c75b39",
+      "border": "#3a2c1f",
+      "link": "#e0922f",
+      "heading": "#f3e7d6"
     },
     "type": {
-      "headingFont": "Hofler",
-      "bodyFont": "Space Grotesk",
+      "headingFont": "Fraunces",
+      "bodyFont": "Nunito Sans",
       "headingWeight": 600,
       "bodyWeight": 400,
-      "baseSize": 19,
+      "baseSize": 17,
       "headingTransform": "none",
       "letterSpacing": 0
     },
     "shape": {
-      "radius": 0,
+      "radius": 16,
       "borderWidth": 1,
       "shadows": "none"
     },
-    "density": "airy",
+    "density": "normal",
     "contentWidth": "normal",
-    "readingWidth": "spacious",
+    "readingWidth": "relaxed",
     "motion": "smooth",
     "nav": {
       "layout": "side"
     },
     "home": {
-      "landing": "about"
+      "landing": "work"
     },
     "logo": {
       "mode": "none"
     },
     "background": {
-      "type": "solid"
+      "type": "texture"
     },
     "thumb": {
-      "fit": "contain",
-      "hover": "zoom"
+      "fit": "cover",
+      "hover": "lift"
     },
     "gallery": {
-      "layout": "grid",
+      "layout": "masonry",
       "size": "medium",
       "gutter": "normal",
       "caption": "below",
@@ -90,10 +90,10 @@
     },
     "lightbox": {
       "transition": "fade",
-      "zoom": false
+      "zoom": true
     },
     "hero": {
-      "enabled": true,
+      "enabled": false,
       "align": "left",
       "size": "small"
     },
@@ -106,16 +106,16 @@
     },
     "pages": {
       "about": true,
-      "contact": false,
-      "cv": false,
-      "press": false,
+      "contact": true,
+      "cv": true,
+      "press": true,
       "exhibitions": false,
       "news": false,
       "available": false,
       "presskit": false,
       "commissions": false,
       "shop": false,
-      "projects": true,
+      "projects": false,
       "stockists": false
     }
   }
