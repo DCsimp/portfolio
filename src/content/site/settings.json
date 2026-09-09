@@ -99,7 +99,8 @@
     },
     "footer": {
       "socials": true,
-      "credit": true
+      "credit": true,
+      "text": "@neuroso on tumblr "
     },
     "favicon": {
       "mode": "initials"
